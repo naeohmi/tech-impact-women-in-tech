@@ -17,7 +17,7 @@ header {
     position: relative;
     height: 100px;
     width: 100%;
-    
+
 }
 header h1 {
     height: 60px;
@@ -30,8 +30,7 @@ header h1 {
     letter-spacing: 20px;
     float: left;
     background-color: rgba(102,92,172,1);
-/*    display: inline-block;*/
-/*    position: fixed;*/
+
 }
 header h1 a {
     transition: 0.3s;
@@ -39,6 +38,8 @@ header h1 a {
     width: 100%;
     color: white;
     padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 header h1 a:hover {
@@ -86,7 +87,7 @@ header nav ul li a {
     display: inline-block;
     text-decoration: none;
     color: rgba(72,195,206,1);
-    line-height: 50px;    
+    line-height: 50px;
     font-size: 600;
     text-shadow: .2px .2px white;
     transition: 0.3s;
@@ -125,7 +126,7 @@ main div {
 }
 
 main div a {
-    
+
 }
 
 main div h2 {
@@ -167,8 +168,16 @@ main div img:hover {
 
 .contacts {
     width: 100%;
-    height: 500px;
     background-color: aqua;
+    text-align: center;
+}
+
+.contacts img {
+    display: inline-block;
+    width: 50vw;
+    text-align: center;
+    padding: 20px;
+
 }
 
 footer {
